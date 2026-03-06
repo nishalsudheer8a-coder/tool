@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div id="calc">
+        <input id="screen" readonly>
+        <div id="keys">
+            <button onclick="process('+')" class="op">+</button>
+            <button onclick="process('7')">7</button>
+            <button onclick="process('8')">8</button>
+            <button onclick="process('9')">9</button>
+            <button onclick="process('-')" class="op">-</button>
+            <button onclick="process('4')">4</button>
+            <button onclick="process('5')">5</button>
+            <button onclick="process('6')">6</button>
+            <button onclick="process('*')" class="op">&times;</button>
+            <button onclick="process('1')">1</button>
+            <button onclick="process('2')">2</button>
+            <button onclick="process('3')">3</button>
+            <button onclick="process('/')" class="op">&divide;</button>
+            <button onclick="process('0')">0</button>
+            <button onclick="process('.')" class="op">.</button>
+            <button onclick="answer()" class="op">=</button>
+            <button onclick="clearsc()" class="op">C</button>
+    <script src="calculator.js"></script>
+        </div>
+
+    </div>
+    
+</body>
+</html>
