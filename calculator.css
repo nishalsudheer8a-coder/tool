@@ -31,7 +31,7 @@ button{
     background-color: rgb(63, 63, 63);
     color: white;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: lighter;
     cursor: pointer;
 }
 button:hover{
@@ -49,6 +49,7 @@ body{
     align-items: center;
     height: 100vh;
 }
+
 .op{
     background-color: rgb(255, 149,0);
 }
@@ -56,6 +57,16 @@ body{
     background-color: rgb(255, 188, 95);
 }
 .op:active{
+    background-color: rgb(255, 207, 140);
+    color: rgb(0, 0, 0);
+}
+.sop{
+    background-color: rgb(100, 100, 100);
+}
+.sop:hover{
+    background-color: rgb(255, 188, 95);
+}
+.sop:active{
     background-color: rgb(255, 207, 140);
     color: rgb(0, 0, 0);
 }
