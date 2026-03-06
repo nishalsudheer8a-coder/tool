@@ -16,3 +16,9 @@ catch(error)
 function clearsc(){
     screen.value = "";
 }
+function sign(){
+    screen.value = -(screen.value);
+}
+function backspace(){
+    screen.value = screen.value.slice(0,-1);
+}
